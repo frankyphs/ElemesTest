@@ -196,6 +196,10 @@ function App() {
                   <div className="footer__newsletter-text">
                     Get now free 50% discount for all products on your first order
                   </div>
+                  <div style={{ position: 'relative', display: 'inline-block' }}>
+                    <input placeholder='Your email address' type='text' className='footer__input'></input>
+                    <div className='footer__input-button'>SEND</div>
+                  </div>
                   <div className="footer__contact-info">
                     <div className="footer__contact-item">
                       <EmailIcon fillColor="#8BAC3E" />
