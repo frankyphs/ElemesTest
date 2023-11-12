@@ -12,7 +12,7 @@ interface ICardMenuProps {
 
 }
 const CardMenu = (props: ICardMenuProps) => {
-  const [isHovered, setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState<boolean>(false);
 
   return (
     <div
